@@ -1,0 +1,23 @@
+# Build artifacts
+
+## CMake goop
+CMakeCache.txt
+
+**/CMakeFiles/**
+Makefile
+
+cmake_install.cmake
+
+## Build outputs
+**/elf2uf2/**
+*.bin
+*.dis
+*.elf
+*.elf.map
+*.hex
+*.uf2
+
+## Generated stuff from the pico-sdk
+generated/**
+pico-sdk/**
+pioasm/**
